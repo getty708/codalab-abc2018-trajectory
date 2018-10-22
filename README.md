@@ -24,19 +24,19 @@
 1. **F1-measure**: PrecisionとRecallの調和平均
 
 
-評価は`code/utls.py: socres()`で評価します.
+評価は`code/utls.py: socres()`のAllのF値で評価します.
 
 
 ### サンプルコード
 jupyter notebookのサンプルコードが, `code/Sample-{Method}.ipnb`に有ります. 適宜参考にしてください.
 
-+ `code/Sample-RandomForest.ipnb`: RandomForest Classifire
-+ `code/Sample-SVM.ipnb`: SVM (サポートベクターマシン)
-+ `code/Sample-NN.ipnb`: Neural Network
++ `code/Sample-RandomForest.ipynb`: RandomForest Classifire
++ `code/Sample-SVM.ipynb`: SVM (サポートベクターマシン)
++ `code/Sample-NN.ipynb`: Neural Network
 
 
 ### Input Files
-1つのCSVファイル (`train/000.csv,630.csv`) に付き, 1Trip分の軌跡が含まれている. CSV内の各行は各時刻のGPSのロケーション情報を記録している.
+1つのCSVファイル (`train/000.csv,630.csv`) に付き, 1トリップ分の軌跡が含まれている. CSV内の各行は各時刻のGPSのロケーション情報を記録している.
 GPSロケーションの他に以下の情報が登録されている. データはおよそ1minごとに記録.
 
 |#| Data type | Column Name |
@@ -93,8 +93,8 @@ Trainingセットのデータ数は以下の通り. `TRAINIG`と`Test`は今回�
 | Trajectory | Number |
 |------------|--------|
 | Total      | 500    |
-| - male     | TBA    |
-| - female   | TBA    |
+| - male     | 235    |
+| - female   | 265    |
 
 
 + `TEST` (500~631)
@@ -102,8 +102,8 @@ Trainingセットのデータ数は以下の通り. `TRAINIG`と`Test`は今回�
 | Trajectory | Number |
 |------------|--------|
 | Total      | 131    |
-| - male     | TBA    |
-| - female   | TBA    |
+| - male     | 70     |
+| - female   | 61     |
 
 
 
