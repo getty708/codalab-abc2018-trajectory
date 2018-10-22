@@ -130,7 +130,7 @@ docker run -it -p 8888:8888  -v <absolute path to root directory>:/root/ --name 
 docker build -t codalab:latest
 docker run -it --rm \
 	-p 8888:8888 \
-	-v /home/naoya/code708/trajectory-classification:/root/work \
+	-v /home/naoya/code708/codalab-abc2018-trajectory:/root/work \
 	--name labrotation  codalab:latest jupyter notebook --allow-root
 ```
 

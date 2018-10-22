@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.9.0-py3
+FROM tensorflow/tensorflow:1.11.0-py3
 MAINTAINER Yoshimura Naoya <yesyes708@gmail.com>
 
 # Emacsのインストール
