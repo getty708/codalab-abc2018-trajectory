@@ -155,7 +155,15 @@ docker run -it --rm \
 
 
 ## 特徴量
-+ window size: 特徴量をどの粒度で抽出するか?
++ 平均 (`np.mean`)
++ 最大, 最小 (`np.min, np.max`)
++ 分散 (`np.var`)
++ 標準偏差 (`np.std`)
++ 周波数コンポーネント (`np.fft`)
+
+
++ 次元削減 (PCA, etc...)
++ (window size: 特徴量をどの粒度で抽出するか?)
 
 
 ## 学習アプローチ
